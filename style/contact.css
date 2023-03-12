@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("image/contact.png");
+    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("../image/contact.png");
     background-position: center;
     background-size: cover;
     width: 100%;

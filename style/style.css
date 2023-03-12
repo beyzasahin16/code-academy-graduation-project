@@ -10,7 +10,7 @@ body {
 }
 
 .home {
-    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("image/home.jpg");
+    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("../image/home.jpg");
 }
 
 .navbar {
@@ -23,7 +23,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     /** h2 ile li leri birbirinden ayırmak için kullandım **/
-
 }
 
 .navbar h2 {
@@ -34,7 +33,6 @@ body {
     font-size: 40px;
     font-weight: 1800;
     text-shadow: 3px 2px 1px #000;
-    ;
 }
 
 .home h1 {
@@ -44,7 +42,6 @@ body {
     margin-top: 90px;
     color: rgb(214, 216, 234);
     text-shadow: 3px 2px 1px #000;
-    ;
 }
 
 a {
@@ -79,11 +76,10 @@ p {
     padding: 15px 15px;
     box-sizing: border-box;
     cursor: pointer;
-    background-image: url(image/earthquake.jpg);
+    background-image: url(../image/earthquake.jpg);
     margin: 70px 30px;
     background-size: cover;
     transition: transform 0.5s;
-
 }
 
 .card2 {
@@ -94,7 +90,7 @@ p {
     padding: 15px 15px;
     box-sizing: border-box;
     cursor: pointer;
-    background-image: url(image/firelogo.png);
+    background-image: url(../image/firelogo.png);
     margin: 70px 30px;
     background-position: center;
     background-size: cover;
@@ -109,7 +105,7 @@ p {
     padding: 15px 15px;
     box-sizing: border-box;
     cursor: pointer;
-    background-image: url(image/floodlogo.jpg);
+    background-image: url(../image/floodlogo.jpg);
     margin: 70px 30px;
     background-position: center;
     background-size: cover;
@@ -124,7 +120,7 @@ p {
     padding: 6px 15px;
     box-sizing: border-box;
     cursor: pointer;
-    background-image: url(image/avalanche.jpg);
+    background-image: url(../image/avalanche.jpg);
     background-position: center;
     margin: 70px 30px;
     background-size: cover;

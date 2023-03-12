@@ -4,28 +4,28 @@
 }
 
 .earthquake {
-    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("image/earthquake.jpg");
+    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("../image/earthquake.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
 }
 
 .fire {
-    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("image/fire.jpg");
+    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("../image/fire.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
 }
 
 .flood {
-    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("image/flood.jpg");
+    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("../image/flood.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
 }
 
 .avalanche {
-    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("image/avalanche.jpg");
+    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("../image/avalanche.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
