@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.home {
+    background-image: linear-gradient(rgba(28, 27, 27, 0.7), rgba(28, 27, 27, 0.7)), url("image/home.jpg");
+}
+
+.navbar {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(68, 91, 114);
+    display: flex;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    /** h2 ile li leri birbirinden ayırmak için kullandım **/
+
+}
+
+.navbar h2 {
+    color: rgb(218, 212, 212);
+    cursor: pointer;
+    transition: 0.8s;
+    font-family: 'ubuntu', cursive;
+    font-size: 40px;
+    font-weight: 1800;
+    text-shadow: 3px 2px 1px #000;
+    ;
+}
+
+.home h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 90px;
+    color: rgb(214, 216, 234);
+    text-shadow: 3px 2px 1px #000;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(197, 211, 172);
+    transition: 0.8s;
+    bottom: unset;
+    font-family: 'ubuntu', cursive;
+    font-size: 18px;
+}
+
+a:hover {
+    color: rgb(128, 167, 128);
+}
+
+p {
+    font-family: 'Golos Text', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.card p {
+    text-shadow: 3px 2px 1px #000;
+    font-size: 15px;
+}
+
+.card1 {
+    width: 250px;
+    height: 287.5px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-image: url(image/earthquake.jpg);
+    margin: 70px 30px;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+
+.card2 {
+    width: 250px;
+    height: 287.5px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-image: url(image/firelogo.png);
+    margin: 70px 30px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card3 {
+    width: 250px;
+    height: 287.5px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-image: url(image/floodlogo.jpg);
+    margin: 70px 30px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card4 {
+    width: 250px;
+    height: 287.5px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-image: url(image/avalanche.jpg);
+    background-position: center;
+    margin: 70px 30px;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.center  {
+    text-align: center;
+}
+
+.card:hover {
+    transform: translate(-10px);
+}
+
+.card h4 {
+    font-family: 'Fredoka One', cursive;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 1800;
+    text-shadow: 3px 2px 1px #000;
+    color: rgb(62, 78, 108);
+}
+
+footer {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(134, 150, 179);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+.text {
+    margin-left: 10%;
+    margin-right: 10%;
+}

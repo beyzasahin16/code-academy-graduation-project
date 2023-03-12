@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İLETİŞİM</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather+Sans:wght@700;800&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <navbar class="navbar">
+        <h2>ÖNLEM!</h2>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="contact.html">İletişim</a>
+        <a href="about-us.html">Hakkımızda</a>
+    </navbar>
+    <div class="ortala">
+        <h1>Iletisim</h1>
+        <p>
+            Sitemiz hakkındaki yorumlarınızı bize iletmek için aşağıdaki formu doldurunuz.
+        </p>
+
+        <div class="form">
+            <form>
+                <label for="fname">Ad</label>
+                <input type="text" id="fname" name="firstname" placeholder="Adınız.." required>
+
+                <label for="lname">Soyad</label>
+                <input type="text" id="lname" name="lastname" placeholder="Soyadınız.." required>
+
+                <label for="lemail">E-posta</label>
+                <input type="email" id="lemail" name="email" placeholder="E-posta adresiniz.." required>
+
+                <label for="subject">Yorum</label>
+                <textarea id="subject" name="subject" placeholder="Yorumunuz.." style="height:200px" required></textarea>
+                
+                <input type="submit" value="Gönder">
+            </form>
+        </div>
+    </div>
+    <footer>
+        Designed by @beyzasahin.
+    </footer>
+
+</body>
+
+</html>
